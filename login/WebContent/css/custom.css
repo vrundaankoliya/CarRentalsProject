@@ -1,0 +1,36 @@
+
+/* 
+
+
+Student Info: Name=Sweta Pallavi, ID=13706
+
+Subject:CS557A_HW2_Summer_2015
+
+Author: Pallavi 
+
+Filename: custom.css 
+
+Date and Time: Nov 20, 2015 12:59:39 AM 
+
+Project Name: CS557AHomeWork3 
+
+
+*/ 
+
+/* 
+    Created on : Nov 20, 2015, 12:59:39 AM
+    Author     : Pallavi
+*/
+
+.footer {
+                
+                 border-top: 1px solid #eee; 
+                   width: 1170px;
+                position: absolute;
+              
+                margin: 40px 0 20px;
+            }
+  .error { 
+                   color: red;
+                
+            }

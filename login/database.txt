@@ -1,0 +1,41 @@
+USE rentalservice;
+
+CREATE TABLE rentalcar (  ID int(11) NOT NULL AUTO_INCREMENT,
+						CARNAME varchar(45) DEFAULT NULL,
+                        CARID varchar(45) DEFAULT NULL,
+                        CARCOLOR varchar(45) DEFAULT NULL,
+                        DRENT varchar(45) DEFAULT NULL,
+                        AVAILABILITY varchar(45) DEFAULT NULL,
+                        cartype  varchar(45) DEFAULT NULL,PRIMARY KEY (ID))
+                        ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
+                        
+                        
+                        
+CREATE TABLE usertbl (idUSERTBL int(11) NOT NULL AUTO_INCREMENT,
+					  FNAME varchar(45) DEFAULT NULL,
+                      LNAME varchar(45) DEFAULT NULL,
+                      ADDRESS varchar(45) DEFAULT NULL,
+                      PHNO varchar(45) DEFAULT NULL,
+                      BDATE varchar(45) DEFAULT NULL,
+                      PASSWORD varchar(45) DEFAULT NULL,
+                      ROLE varchar(45) DEFAULT NULL,
+                      EMAIL varchar(45) DEFAULT NULL,
+                      PRIMARY KEY (idUSERTBL)) 
+                      ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8
+                      
+                      
+CREATE TABLE Reservation
+(
+ID int(11) NOT NULL AUTO_INCREMENT,
+pickupLocation varchar(255),
+dropLocation varchar(255),
+datePickup varchar(40),
+dateDrop varchar(40),
+email varchar(40),
+insuranceAmount varchar(40),
+giftCardAmount varchar(40),
+carWashAmount varchar(40),
+carType varchar(40),
+cost varchar(40),
+PRIMARY KEY (ID)
+)ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8

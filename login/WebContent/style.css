@@ -1,0 +1,77 @@
+
+.header{
+    position: absolute;
+    top:5px;
+    display :inline;
+    padding: 20px;
+    background-color: aqua;
+    position:fixed;
+    width: 97%;
+    height: 25px;
+    color: black;
+}
+.header a{
+    padding: 8px;
+    color: darkblue;
+    float: right;
+}
+.navigation{
+    clear: both;
+    padding-top: 5px;
+}
+
+.navigation ul li{
+    display: inline;
+    margin: 0 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.help{
+    margin-left: 350px;
+}
+.help ul li{
+    font-style: italic;
+    display: inline;
+    margin:  0 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    width: 99%;
+    background-color: aqua;
+    color: white;
+}
+
+.section{
+    position: absolute;
+    top: 20%;
+}
+
+#imgages ul li{
+    position: relative;
+    float: right;
+    top:50px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#wrapper{
+    position: relative;
+    top:75px;
+    alignment-adjust: central;
+}
+
+#carImg ul li *{
+    margin-left: 10px;
+}
+
+#sale{
+    float: left;
+    min-height: 200px;
+}
